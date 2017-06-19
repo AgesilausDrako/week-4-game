@@ -1,0 +1,90 @@
+body {
+	background-image: url("../images/contemporary_china.png");
+}
+
+.container {
+	margin-bottom: 2em;
+}
+
+h1 {
+	background-color: #e68a00;
+	color: #fff;
+	margin-top: 0;
+	margin-left: -.55em;
+	padding: 1em .1em 1em .2em;
+	width: 90%;
+	font-size: 2em;
+}
+
+.info-box {
+	font-size: 1.5em;
+	background-color: #ffd9b3;
+	color: #00b33c;
+}
+
+#results-box {
+	padding: 4em;
+	margin: .5em 1em .5em 0;
+	background-color: #00cc66;
+}
+
+#win-loss_box {
+	padding: 1em;
+	margin: .5em 0 .5em 0;
+	background-color: #00ccff;
+	color: #737373;
+}
+
+.crystal {
+	margin: .75em;
+	padding: 2em;
+	max-height: 150px;
+	max-width: 200px;
+	width: 120px;
+	height: 120px;
+}
+
+.crystal:hover {
+	opacity: .5;
+}
+
+#red { 
+	background-color: #e60000;
+	margin-left: 0;
+}
+
+#blue {
+	background-color: #0000e6;
+}
+
+#green {
+	background-color: #00cc00;
+}
+
+#yellow {
+	background-color: #ffff1a;
+}
+
+.score-header {
+	margin-left: -1em;
+	padding-right: 2em;
+}
+
+.total-score-header {
+	margin: 0 auto;
+	padding: .3em 1em .3em .3em;
+	background-color: #4aaaa5;
+	color: #fff;
+}
+
+#total-score-box {
+	padding: 4em;
+	margin: .5em 1em .5em 0;
+	background-color: #4aaaa5;
+}
+
+
+
+
+
+

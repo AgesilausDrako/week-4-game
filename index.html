@@ -9,10 +9,65 @@
 	</head>
 
 	<body>
-
-
-
-
+	<div class="container">
+		<div class="row">
+			<div class="col-xs-4 col-md-3">
+				<h1>Crystal Collector!</h1>
+			</div>
+		</div><!-- End of Header Row Div -->
+		<div class="row">
+			<div class="col-md-6 info-box">
+				<p>
+					You will be given a random number at the start of the game.
+				</p>
+				<p>
+					There are four crystals below. By clicking on a crystal you will add a specific amount of points to your total score.
+				</p>
+				<p>
+					You win the game by matching your total score to the random number. You lose the game if your total score goes above the random number.
+				</p>
+				<p>
+					The value of each crystal is hidden from you until you click on it.
+				</p>
+				<p>
+					Each time when the game starts, the game will change the values of each crystal.
+				</p>
+			</div>
+		</div><!-- End of info-box Row Div -->
+		<div class="row">
+			<div id="results-box" class="col-xs-6 col-md-3">
+				<span>Score</span>
+			</div>
+			<div id="win-loss_box" class="col-xs-4 col-md-2">
+				<h3>Wins: <span>0</span></h3>
+				<h3>Losses: <span>0</span></h3>
+			</div>
+		</div><!-- End of Results Row Div -->
+		<div class="row">
+			<div id="red" class="col-xs-3 col-md-2 crystal">
+				<a href=""></a>
+			</div>
+			<div id="blue" class="col-xs-3 col-md-2 crystal">
+				<a href=""></a>
+			</div>
+			<div id="green" class="col-xs-3 col-md-2 crystal">
+				<a href="" ></a>
+			</div>
+			<div id="yellow" class="col-xs-3 col-md-2 crystal">
+				<a href=""></a>
+			</div>
+		</div><!-- End of Crystals Row Div -->
+		<div class="row">
+			<div class="col-xs-12 col-md-3 score-header">
+				<h3 class="total-score-header">Your total score is:</h3>
+			</div>
+		</div><!-- End of Score Signaler Row Div -->
+		<div class="row">
+			<div id="total-score-box" class="col-xs-12 col-md-3">
+				<span>Score</span>
+			</div>
+		</div><!-- End of Score-box Div -->
+	</div><!-- End of Container Div -->
 	<script src="assets/javascript/game.js"></script>
 	</body>
 </html>
