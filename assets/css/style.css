@@ -1,3 +1,4 @@
+/* Base Styles */
 body {
 	background-image: url("../images/contemporary_china.png");
 }
@@ -16,25 +17,30 @@ h1 {
 	font-size: 2em;
 }
 
+/* Info-box */
 .info-box {
 	font-size: 1.5em;
 	background-color: #ffd9b3;
 	color: #00b33c;
 }
 
-#results-box {
+/* Results Box */
+#number-box {
+	font-size: 1em;
 	padding: 4em;
-	margin: .5em 1em .5em 0;
+	margin: 1em 1em .5em 0;
 	background-color: #00cc66;
 }
 
+/* Win-loss Box */
 #win-loss_box {
 	padding: 1em;
-	margin: .5em 0 .5em 0;
+	margin: 1em 0 .5em 0;
 	background-color: #00ccff;
 	color: #737373;
 }
 
+/* Crystal Styles */
 .crystal {
 	margin: .75em;
 	padding: 2em;
@@ -48,23 +54,24 @@ h1 {
 	opacity: .5;
 }
 
-#red { 
+#redCrystal { 
 	background-color: #e60000;
 	margin-left: 0;
 }
 
-#blue {
+#blueCrystal {
 	background-color: #0000e6;
 }
 
-#green {
+#greenCrystal {
 	background-color: #00cc00;
 }
 
-#yellow {
+#yellowCrystal {
 	background-color: #ffff1a;
 }
 
+/* Score Styles */
 .score-header {
 	margin-left: -1em;
 	padding-right: 2em;
@@ -81,6 +88,7 @@ h1 {
 	padding: 4em;
 	margin: .5em 1em .5em 0;
 	background-color: #4aaaa5;
+	color: #fff;
 }
 
 
