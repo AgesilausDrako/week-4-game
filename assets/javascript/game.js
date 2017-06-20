@@ -21,11 +21,27 @@ function initializeGame (){
 	//Function for generating the Crystal number
 	function crystalNumGenerator () {
 		redCrystal = Math.floor(Math.random() * 12 + 1);
+		redCrystal = parseInt(redCrystal);
+		$("#redCrystal").val(redCrystal);
 		blueCrystal = Math.floor(Math.random() * 12 + 1);
+		blueCrystal = parseInt(blueCrystal);
+		$("#blueCrystal").val(blueCrystal);
 		greenCrystal = Math.floor(Math.random() * 12 + 1);
+		greenCrystal = parseInt(greenCrystal);
+		$("#greenCrystal").val(greenCrystal);
 		yellowCrystal = Math.floor(Math.random() * 12 + 1);
+		yellowCrystal = parseInt(yellowCrystal);
+		$("#yellowCrystal").val(yellowCrystal);
 		}
 		crystalNumGenerator();
+}
+
+function reset () {
+	redCrystal = "";
+	blueCrystal = "";
+	greenCrystal = "";
+	yellowCrystal = "";
+	initializeGame();
 }
 
 
@@ -34,20 +50,22 @@ $("document").ready(function (){
 	//Sets up all the random numbers
 	initializeGame();
 
-	
+	$(".crystal").on("click", function(){
+		scoreNum+=this.value;
+		$("#results").html(scoreNum);
+	});
 
 
 
+	//Resets game if player exceeds random number and updates losses
+	if(scoreNum > randomNum) {
+		losses+=1;
+		reset();
+	}
 
-
-
-
-
-
-
-
-
-
-
-
+	//Resets game if player matches random number and updates wins
+	if (scoreNum === randomNum) {
+		wins+=1;
+		reset();
+	}
 });
