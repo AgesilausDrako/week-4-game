@@ -73,7 +73,6 @@ h1 {
 
 /* Score Styles */
 .score-header {
-	margin-left: 0;
 	padding-right: 2em;
 	background-color: #4aaaa5;
 	color: #fff;
@@ -82,7 +81,6 @@ h1 {
 .total-score-header {
 	margin: 0 auto;
 	padding: .3em 1em .3em .3em;
-	
 }
 
 #total-score-box {
