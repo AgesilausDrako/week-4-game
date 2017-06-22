@@ -54,23 +54,6 @@ h1 {
 	opacity: .5;
 }
 
-#redCrystal { 
-	background-color: #e60000;
-	margin-left: 0;
-}
-
-#blueCrystal {
-	background-color: #0000e6;
-}
-
-#greenCrystal {
-	background-color: #00cc00;
-}
-
-#yellowCrystal {
-	background-color: #ffff1a;
-}
-
 /* Score Styles */
 .score-header {
 	padding-right: 2em;

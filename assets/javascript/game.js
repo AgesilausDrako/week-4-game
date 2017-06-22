@@ -38,7 +38,7 @@ $("document").ready(function (){
 			crystalNumGenerator();
 			$("#greenCrystal").val(randomCrystal);
 			crystalNumGenerator();
-			$("#yellowCrystal").val(randomCrystal);
+			$("#diamondCrystal").val(randomCrystal);
 			}
 			crystalValAssigner();
 	}
@@ -64,7 +64,7 @@ $("document").ready(function (){
 		}
 
 	//Assigns the click handler
-	$(".crystal").click(crystalClick);
+	$(".crystalClick").click(crystalClick);
 
 	//Reset function to clear the crysal variables and reinitialize the game
 	function reset () {
