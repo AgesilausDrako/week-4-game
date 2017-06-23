@@ -7,22 +7,18 @@ $("document").ready(function (){
 	//Store the random number assigned to each crystal at game's outset
 	var randomCrystal = 0;
 
-	//Stores the total of the player's crystal numbers
-	var scoreNum = 0;
-
 	//Stores the number from each click event
 	var newNum = 0;
+
+	//Stores the total of the player's crystal numbers
+	var scoreNum = 0;
 
 	//Variables for storing total number of wins and losses
 	var wins = 0;
 	var losses = 0;
-
-	//Logs the initial win/loss scores
-	$("#wins").html(wins);
-	$("#losses").html(losses);
 	
 	//Initializes the game and creates random numbers for variables
-	function initializeGame (){
+	function initializeGame () {
 		//Creates a random number between 19 and 120
 		randomNum = Math.floor(Math.random() * (120 - 19) + 19);
 		$("#number-box").html(randomNum);
@@ -45,7 +41,7 @@ $("document").ready(function (){
 	
 	//Changes strings into integers, adds them to the score, and resets game
 	//when conditions are met
-	function crystalClick (){
+	function crystalClick () {
 		newNum = parseInt(this.value);
 		scoreNum += newNum;
 		$("#results").html(scoreNum);
